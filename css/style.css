@@ -1,0 +1,114 @@
+/* A CSS reset. It is used to reset the default styling of the browser. */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Setting the background color of the body to #eff3ff. */
+body {
+    background-color: #eff3ff;
+}
+
+/* Centering the card. */
+.container {
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+/* Setting the width of the card to 100% of the container. It is also setting the padding of the card
+to 30px on the top and bottom and 20px on the left and right. It is also setting the box-shadow of
+the card to 0 20px 30px rgba(0, 0, 0, 0.15). It is also setting the border-radius of the card to
+10px. */
+#card {
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+/* Setting the image to be displayed as a block, setting the width to 180px, setting the max-height to
+200px, setting the position to relative, and setting the margin to 20px auto. */
+#card img {
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+/* Setting the width of the hp to 80px, setting the background-color to #ffffff, setting the text-align
+to center, setting the padding to 8px 0, setting the border-radius to 30px, setting the margin-left
+to auto, and setting the font-weight to 400. */
+.hp {
+    width: 80px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 400;
+}
+
+/* Setting the text-align to center and the font-weight to 600. */
+.poke-name {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Setting the display to flex, setting the justify-content to space-around, and setting the margin to
+20px 0 40px 0. */
+.types {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+/* Setting the font-size to 12px, the letter-spacing to 0.4px, and the font-weight to 600. */
+.hp span,
+.types span {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 600;
+}
+
+/* Setting the padding to 5px 20px, the border-radius to 20px, and the color to white. */
+.types span {
+    padding: 5px 20px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Setting the display to flex, setting the align-items to center, setting the justify-content
+to space-between, and setting the text-align to center. */
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Setting the color of the text to #404060. */
+.stats p {
+    color: #404060;
+}
+
+/* Setting the display to block, setting the padding to 15px 60px, setting the font-size to 18px,
+setting the background-color to #101010, setting the color to #ffffff, setting the position to
+relative, setting the margin to 30px auto, setting the border to none, and setting the border-radius
+to 5px. */
+#btn {
+    display: block;
+    padding: 15px 60px;
+    font-size: 18px;
+    background-color: #101010;
+    color: #ffffff;
+    position: relative;
+    margin: 30px auto;
+    border: none;
+    border-radius: 5px;
+}
