@@ -6,7 +6,7 @@ This pokemon card generator was from a code along with coding artist
 
 https://codingartistweb.com/2021/09/pokemon-card-generator-javascript/
 
-This project helped me get a better understanding of how apis and dom munipulation works and also got to use https://pokeapi.co/
+This project helped me get a better understanding of how APIs and dom munipulation works and also got to use https://pokeapi.co/
 
 A piece of code that I am proud of is (code below) because I did not know that you could implement html inside of javaScript and makes it a lot more dynamic than having to type out this code for each pokemon.
 
